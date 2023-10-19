@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _printf_function - function that produces output according to a format
+ * _printf - function that produces output according to a format
  * @format: parametre
  * Return:the number of characters printed
  */
-int _printf_function(const char *format, ...)
+int _printf(const char *format, ...)
 {
 	int len_count = 0;
 	va_list argu;

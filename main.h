@@ -10,7 +10,7 @@
 
 #define BUFFER_SIZE 1024
 
-int _printf_function(const char *format, ...);
+int _printf(const char *format, ...);
 int specifier_checker(const char t, va_list argu);
 int print_c(va_list argu);
 int print_string_s(va_list argu);
